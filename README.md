@@ -3,18 +3,6 @@
 This repository contains an implementation of arbitrary style transfer running fully
 inside the browser using TensorFlow.js.
 
-Demo website: https://reiinakano.github.io/arbitrary-image-stylization-tfjs
-
-Blog post with more details: https://magenta.tensorflow.org/blog/2018/12/20/style-transfer-js/
-
-### Stylize an image
-
-![stylize](readme_img/stylize.jpg)
-
-### Combine styles
-
-![combine](readme_img/combine.jpg)
-
 ## FAQ
 
 ### What is this?
@@ -25,8 +13,7 @@ style transfer algorithms, a neural network attempts to "draw" one
 picture, the Content (usually a photograph), in the style of another, 
 the Style (usually a painting). 
 
-Although [other browser implementations](https://github.com/reiinakano/fast-style-transfer-deeplearnjs)
-of style transfer exist,
+Although other browser implementations of style transfer exist,
 they are normally limited to a pre-selected handful of styles, due to
 the requirement that a separate neural network must be trained for each
 style image.
@@ -36,9 +23,6 @@ separate *style network* that learns to break down *any* image into
 a 100-dimensional vector representing its style. This style vector is 
 then fed into another network, the *transformer network*, along
 with the content image, to produce the final stylized image.
-
-I have written a [blog post](https://magenta.tensorflow.org/blog/2018/12/20/style-transfer-js/) 
-explaining this project in more detail.
 
 ### Is my data safe? Can you see my pictures?
 
