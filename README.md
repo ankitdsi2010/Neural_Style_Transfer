@@ -1,7 +1,9 @@
 # Neural style transfer in TensorFlow.js
 
 This repository contains an implementation of arbitrary style transfer running fully
-inside the browser using TensorFlow.js.
+inside the browser using TensorFlow.js. 
+ 
+ It is hosted [here](https://ankitdsi2010.github.io/Neural_Style_Transfer/)
 
 This is an implementation of an arbitrary style transfer algorithm
 running purely in the browser using TensorFlow.js. As with all neural 
